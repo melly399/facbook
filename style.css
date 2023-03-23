@@ -1,0 +1,32 @@
+html,
+ body {
+    height: 100;
+    background-color: white(75, 11, 11) !important;
+}
+
+.global-container {
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(10, 10, 10, 0.533);
+}
+
+.card-title{
+    color: rgb(27, 121, 230);
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.login-form{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+ 
+input [type="email"],
+input [type="password"] {
+    background-color: bisque;
+}
